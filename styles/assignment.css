@@ -1,0 +1,12 @@
+
+/* nav styles */
+.fitnes{
+    display: flex;
+}
+.nav-items{
+    display: flex;
+    
+}
+.links{
+    text-decoration: none;
+}

@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-color{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* navbar related styles */
+.display-flex{
+    display: flex;
+}
+.brand{
+    color: red;
+}
+.home-color{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 8px;
+    padding: 4px 4px;
+}
+.bg-light{
+    background-color: #222222;
+}
+.navbar{
+    justify-content: space-between;
+
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.brand{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.body{
+    display: flex;
+}
+.healthy{
+    margin-right: 90px;
+    margin-left: 200px;
+    height: 440px;
+    width: 600px;
+}
+.healthy-title{
+    font-weight: 700;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 1);
+}
+.healthy-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-1{
+    padding: 15px 45px;
+    width: 225px;
+    height: 55px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+.btn-2{
+    padding: 15px 45px;
+    width: 225px;
+    height: 55px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: #111111;
+  
+}
+.body-img{
+    margin-top: 35px;
+    margin-right: 215px;
+}
+.btn-3{
+    padding: 20px 25px;
+    width: 200px;
+    height: 100px;
+    border-radius: 12px;
+    align-items: center;
+    color: rgba(250, 250, 249, 1);
+    background-color: rgba(48, 48, 48, 0.54);
+    margin-left: -150px;
+    margin-top: -150px;
+}
