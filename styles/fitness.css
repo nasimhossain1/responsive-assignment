@@ -76,7 +76,7 @@
     display: flex;
     gap: 15px;
 }
-.btn-1,.run-button{
+.btn-1,.run-button,.calculate-btn{
     padding: 15px 45px;
     width: 225px;
     height: 55px;
@@ -231,6 +231,59 @@
 .run-button{
     margin-top: 35px;
 }
+/* BMI related styles */
+.bmi-header{
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+.bmi-calculator{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 90px;
+}
+.bmi-title,.bmi-status{
+    color: rgba(255, 255, 255, 1);
+}
+.bmi-table{
+    color: rgba(255, 255, 255, 0.5);
+    
+    /* margin-bottom: 135px; */
+}
+.table-header,.calculate{
+    color: rgba(255, 255, 255, 1);
+}
+.calculate-description{
+    color: rgba(255, 255, 255, 0.5);
+}
+.form-list{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.calculate-btn{
+    margin-top: 35px;
+}
+.bmi-table-form{
+    display: flex;
+    margin-top: 90px;
+    background-color: rgba(34, 34, 34, 1);
+    width: 100%
+    margin-left: 0px;
+}
+/* .bmi-form{
+   margin-left: 180px;
+} */
+ .calculate-bmi{
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    
+ }
+ /* .bmi{
+    margin-bottom: 90px;
+ } */
 
 
 
