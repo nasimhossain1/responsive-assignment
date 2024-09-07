@@ -281,9 +281,7 @@
     margin-bottom: 50px;
     
  }
- /* .bmi{
-    margin-bottom: 90px;
- } */
+ 
   /* team styles */
   .team-text{
     text-align: center;
@@ -356,14 +354,4 @@
 
 
 
-/* media quary */
-@media screen and (max-width: 576px) {
-    .body{
-        display: flex;
-}
-.body-img{
-    margin-top: 35px;
-    margin-right: 400px;
-    width: 100%;
-}
 
